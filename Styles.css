@@ -307,7 +307,7 @@ footer {
     }
 
     .columna h2 {
-        font-size: 0.4em;
+        font-size: 0.37em;
     }
 
     .columna h3 {
@@ -316,6 +316,10 @@ footer {
 
     .columna a {
         font-size: 0.8em;
+    }
+
+    .columna p {
+        font-size: 0.1em;
     }
 
     .logoFooter {
