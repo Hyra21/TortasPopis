@@ -16,15 +16,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: auto;
     padding: 0px 5%;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
 }
 
 .btnHome {
-    height: 1vw;
-    width: auto;
+    height: auto;
+    width: 1vw;
     transition: all 0.3s ease 0s;
 }
 
@@ -38,7 +38,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
-    font-size: 1vw;
+    font-size: 2em;
     margin: 10px;
 }
 
@@ -62,15 +62,15 @@ a:hover {
 }
 
 .logo {
-    height: 4vw;
-    width: auto;
+    height: auto;
+    width: 4vw;
 }
 
 .btnContact {
     display: flex;
     align-items: center;
     font-weight: 700;
-    font-size: 1vw;
+    font-size: 1.5em;
     color: #080708;
     padding: 10px 5%;
     background: #DF2935;
@@ -81,8 +81,8 @@ a:hover {
 }
 
 #imgContact {
-    height: 1vw;
-    width: auto;
+    height: auto;
+    width: 1vw;
     margin-right: 10px;
     transition: all 0.3s ease 0s;
 }
@@ -101,22 +101,24 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    height: auto;
     padding-top: 10px;
 }
 
 article {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     max-width: 2000px;
     min-width: 320px;
-    height: 35vw;
+    height: 32vw;
     padding-top: 20px;
 }
 
 .mostrarImagenes {
     border: 1px solid rgba(223, 41, 53, 1);
-    width: 85vw;
+    width: 85%;
     max-width: 1000px;
     min-width: 320px;
     height: 26vw;
@@ -139,7 +141,8 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 100%;
+    height: auto;
+    width: 100%;
     max-width: 100%;
     border: 1px solid rgba(223, 41, 53, 1);
     background-color: rgba(253, 202, 64, 0.6);
@@ -175,7 +178,7 @@ article {
 
 /* Footer */
 footer {
-    width: 100%;
+    width: 100vw;
     background-color: rgba(253, 202, 64, 1);
     margin-top: 30px;
 }
@@ -218,6 +221,8 @@ figure {
 
 .footer2 {
     background-color: #DF2935;
+    width: 100%;
+    height: auto;
     text-align: center;
     font-size: 1em;
 }
@@ -227,127 +232,5 @@ figure {
     text-align: justify;
     }
 
-/* Media Queries */
 
-@media (max-width: 768px) {
-    .logo {
-        height: auto;
-        width: 2vw;
-    }
-
-    .btnHome {
-        height: auto;
-        width: 50%;
-    }
-
-    .menu {
-        font-size: 1vw;
-    }
-
-    .columna {
-        margin: 10px 5%;
-    }
-
-    .columna h2 {
-        font-size: 1em;
-    }
-
-    .columna a {
-        font-size: 1em;
-    }
-
-    .btnContact {
-        font-size: 1vw;
-        padding: 10px 5%;
-    }
-
-    #imgContact {
-        height: auto;
-        width: 50%;
-    }
-
-    .mostrarImagenes {
-        width: 90%;
-    }
-
-    .mostrarImagenes img {
-        border-radius: 10px;
-    }
-
-    .footer1 {
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-    }
-
-    .logoFooter {
-        height: auto;
-        width: 70%;
-    }
-
-    .imgRedes {
-        width: 15%;
-        margin: 10px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .logo {
-        height: auto;
-        width: 70%;
-    }
-
-    .btnHome {
-        height: auto;
-        width: 50%;
-    }
-
-    .menu {
-        font-size: 2vw;
-    }
-
-    .columna {
-        margin: 10px 5%;
-    }
-
-    .columna h2 {
-        font-size: 1.5em;
-    }
-
-    .columna a {
-        font-size: 1.2em;
-    }
-
-    .btnContact {
-        font-size: 1.5em;
-        padding: 10px 5%;
-    }
-
-    #imgContact {
-        height: auto;
-        width: 15%;
-    }
-
-    .mostrarImagenes {
-        width: 90%;
-    }
-
-    .mostrarImagenes img {
-        border-radius: 10px;
-    }
-
-    .footer1 {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-    }
-
-    .logoFooter {
-        height: auto;
-        width: 70%;
-    }
-
-    .imgRedes {
-        width: 15%;
-        margin: 10px;
-    }
-}
 
