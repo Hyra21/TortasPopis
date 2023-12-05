@@ -228,7 +228,7 @@ footer {
 
 @media (max-width: 768px) {
     .logo {
-        width: 10%;
+        width: 20%;
     }
 
     .btnHome {
@@ -236,7 +236,7 @@ footer {
     }
 
     .menu {
-        font-size: 1.2em;
+        font-size: 3.5em;
     }
 
     .btnContact {
@@ -287,7 +287,7 @@ footer {
     }
 
     .menu {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .btnContact {
@@ -308,7 +308,7 @@ footer {
     }
 
     .columna h2 {
-        font-size: 0.37em;
+        font-size: 0.33em;
     }
 
     .columna h3 {
