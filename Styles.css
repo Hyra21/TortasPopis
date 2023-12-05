@@ -63,7 +63,7 @@ a:hover {
 
 .logo {
     height: auto;
-    width: 5%;
+    width: 4vw;
 }
 
 .btnContact {
@@ -222,7 +222,7 @@ footer {
 
 @media (max-width: 768px) {
     .logo {
-        width: 5%;
+        width: 10%;
     }
 
     .btnHome {
