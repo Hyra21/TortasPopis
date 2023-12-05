@@ -265,3 +265,45 @@ footer {
         width: 15px;
     }
 }
+
+@media (max-width: 320px) {
+    .logo {
+        width: 20%;
+    }
+
+    .menu {
+        font-size: 10px;
+    }
+
+    .btnContact {
+        font-size: 12px;
+    }
+
+    #imgContact {
+        width: 10px;
+    }
+
+    .mostrarImagenes img {
+        border-radius: 3px;
+    }
+
+    .columna {
+        margin: 10px 2%;
+    }
+
+    .columna h2 {
+        font-size: 1em;
+    }
+
+    .columna a {
+        font-size: 0.8em;
+    }
+
+    .logoFooter {
+        width: 30%;
+    }
+
+    .imgRedes {
+        width: 10px;
+    }
+}
