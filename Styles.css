@@ -33,7 +33,7 @@ header {
     content: url('house-solid.svg');
 }
 
-ul {
+.menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -42,12 +42,12 @@ ul {
     margin: 10px;
 }
 
-li {
+.menu li {
     padding: 0 15px;
     list-style: none;
 }
 
-li:hover {
+.menu li:hover {
     transform: scale(1.2);
 }
 
@@ -230,53 +230,124 @@ figure {
 /* Media Queries */
 
 @media (max-width: 768px) {
-    ul {
-        font-size: 1.2em;
-    }
-
-    .columna h2 {
-        font-size: 1.2em;
-    }
-
-    .columna a {
-        font-size: 0.8em;
+    .logo {
+        height: auto;
+        width: 70%;
     }
 
     .btnHome {
-        height: 4vw;
+        height: auto;
+        width: 50%;
+    }
+
+    .menu {
+        font-size: 2vw;
+    }
+
+    .columna {
+        margin: 10px 5%;
+    }
+
+    .columna h2 {
+        font-size: 1.5em;
+    }
+
+    .columna a {
+        font-size: 1.2em;
     }
 
     .btnContact {
         font-size: 1.5em;
+        padding: 10px 5%;
     }
 
     #imgContact {
-        height: 2vw;
+        height: auto;
+        width: 15%;
+    }
+
+    .mostrarImagenes {
+        width: 90%;
+    }
+
+    .mostrarImagenes img {
+        border-radius: 10px;
+    }
+
+    .footer1 {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .logoFooter {
+        height: auto;
+        width: 70%;
+    }
+
+    .imgRedes {
+        width: 15%;
+        margin: 10px;
     }
 }
 
-@media (max-width: 1700px) {
-    ul {
-        font-size: 1.2em;
-    }
-
-    .columna h2 {
-        font-size: 1.2em;
-    }
-
-    .columna a {
-        font-size: 0.8em;
+@media (max-width: 1000px) {
+    .logo {
+        height: auto;
+        width: 70%;
     }
 
     .btnHome {
-        height: 4vw;
+        height: auto;
+        width: 50%;
+    }
+
+    .menu {
+        font-size: 2vw;
+    }
+
+    .columna {
+        margin: 10px 5%;
+    }
+
+    .columna h2 {
+        font-size: 1.5em;
+    }
+
+    .columna a {
+        font-size: 1.2em;
     }
 
     .btnContact {
         font-size: 1.5em;
+        padding: 10px 5%;
     }
 
     #imgContact {
-        height: 2vw;
+        height: auto;
+        width: 15%;
+    }
+
+    .mostrarImagenes {
+        width: 90%;
+    }
+
+    .mostrarImagenes img {
+        border-radius: 10px;
+    }
+
+    .footer1 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .logoFooter {
+        height: auto;
+        width: 70%;
+    }
+
+    .imgRedes {
+        width: 15%;
+        margin: 10px;
     }
 }
+
