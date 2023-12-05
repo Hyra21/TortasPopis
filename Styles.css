@@ -331,3 +331,54 @@ footer {
         width: 10px;
     }
 }
+
+@media (max-width: 200px) {
+    .logo {
+        width: 20%;
+    }
+
+    .menu {
+        font-size: 1.5em;
+    }
+
+    .btnContact {
+        font-size: 0.5em;
+    }
+
+    #imgContact {
+        width: 10px;
+    }
+
+    .mostrarImagenes img {
+        border-radius: 3px;
+    }
+
+    .columna {
+        margin: 10px 2%;
+        width: 10%;
+    }
+
+    .columna h2 {
+        font-size: 0.33em;
+    }
+
+    .columna h3 {
+        font-size: 0.4em;
+    }
+
+    .columna a {
+        font-size: 0.8em;
+    }
+
+    .columna p, li {
+        font-size: 0.3em;
+    }
+
+    .logoFooter {
+        width: 30%;
+    }
+
+    .imgRedes {
+        width: 10px;
+    }
+}
