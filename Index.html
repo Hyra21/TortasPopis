@@ -4,30 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Refresquería "Tortas Popis"</title>
+        <link rel="icon" href="logo.ico" type="image/x-icon">
         <link rel="stylesheet" href="Styles.css">
     </head>
     <body>
         <header>
             <img src="logo.png" alt="Logo" class="logo">
             <nav>
-                <ul>
+                <ul class="menu">
                     <li><a href="#"><img src="house-solidBlack.svg" alt="Inicio"
                                 class="btnHome"></a></li>
-                    <li><a href>Menú</a></li>
-                    <li><a href>Nosotros</a></li>
+                    <li><a href="menu.html">Menú</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
                 </ul>
             </nav>
-            <a href><button class="btnContact"><img
+            <a href="contacto.html"><button class="btnContact"><img
                         src="address-card-solidBlack.svg" alt="contacto"
                         id="imgContact"> Contacto</button></a>
         </header>
         <section>
             <div class="mostrarImagenes">
-                <img
-                    src="https://images4.alphacoders.com/616/thumb-1920-616945.png"
-                    alt="Negocio">
+                <img src="negocio.png" alt="Negocio">
             </div>
-            <article>
+            <article class="contacto">
                 <div class="columna">
                     <img src="menu.svg" alt="menú">
                     <h2>Menú</h2>
@@ -36,7 +35,7 @@
                         variedad de bebidas refrescantes.</p>
                         <a href="menu.html">Consultar</a>
                 </div>
-                <div class="columna">
+                <div class="columna" id="nosotros">
                     <img src="abierto.svg" alt="menú">
                     <h2>Nosotros</h2>
                     <p>Somos un negocio familiar el cual surgio en 1985, desde nuestro inicio juramos tratar a nuestros clientes con el debido respeto.</p>
@@ -66,10 +65,16 @@
                         <img src="whatsapp.svg" alt="whatsapp" class="imgRedes">
                     </div>
                 </div>
+                <div>
+                    <audio autoplay controls id="miAudio">
+                        <source src="Sunny Mood.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
             <div class="footer2">
                 <p>&copy; 2023 Refresquería "Tortas Popis". Todos los derechos reservados.</p>
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
