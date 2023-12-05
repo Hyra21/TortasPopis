@@ -232,7 +232,7 @@ figure {
 @media (max-width: 768px) {
     .logo {
         height: auto;
-        width: 70%;
+        width: 100%;
     }
 
     .btnHome {
@@ -241,7 +241,7 @@ figure {
     }
 
     .menu {
-        font-size: 2vw;
+        font-size: 1vw;
     }
 
     .columna {
@@ -257,13 +257,13 @@ figure {
     }
 
     .btnContact {
-        font-size: 1.5em;
+        font-size: 1vw;
         padding: 10px 5%;
     }
 
     #imgContact {
         height: auto;
-        width: 15%;
+        width: 50%;
     }
 
     .mostrarImagenes {
