@@ -71,7 +71,7 @@ a:hover {
     align-items: center;
     font-weight: 700;
     font-size: 1.5em;
-    color: #080708;
+    color: #E6E8E6;
     padding: 10px 5%;
     background: #DF2935;
     border: none;
@@ -108,17 +108,14 @@ section {
 
 article {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    max-width: 2000px;
-    min-width: 320px;
-    height: 32vw;
     padding-top: 20px;
 }
 
 .mostrarImagenes {
     border: 1px solid rgba(223, 41, 53, 1);
-    width: 85%;
+    width: 100%;
     max-width: 1000px;
     min-width: 320px;
     height: 26vw;
@@ -161,7 +158,6 @@ article {
 .columna img {
     width: 100%;
     height: auto;
-    display: block;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -183,54 +179,89 @@ footer {
     margin-top: 30px;
 }
 
+footer {
+    width: 100%;
+    background-color: rgba(253, 202, 64, 1);
+    margin-top: 30px;
+}
+
 .footer1 {
     width: 100%;
-    height: auto;
-    margin: auto;
-    max-width: 1000px;
-    min-width: 320px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
 
 .logoFooter {
-    height: 15vw;
-    width: auto;
-}
-
-figure {
-    width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box h2 {
-    font-size: 3em;
-    color: #E6E8E6;
+    width: 100%;
+    max-width: 150px;
 }
 
 .imgRedes {
-    width: 2vw;
+    width: 30px;
     margin: 10px;
     cursor: pointer;
 }
 
 .footer2 {
     background-color: #DF2935;
-    width: 100%;
-    height: auto;
+    color: #E6E8E6;
     text-align: center;
     font-size: 1em;
+    padding: 10px;
 }
 
-.columna .productos{
+.columna .productos {
     font-size: 1em;
     text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100%;
     }
 
+    .btnHome {
+        width: 100%;
+    }
 
+    .menu {
+        font-size: 12px;
+    }
 
+    .btnContact {
+        font-size: 14px;
+    }
+
+    #imgContact {
+        width: 15px;
+    }
+
+    .mostrarImagenes img {
+        border-radius: 5px;
+    }
+
+    .columna {
+        margin: 10px 5%;
+    }
+
+    .columna h2 {
+        font-size: 1.2em;
+    }
+
+    .columna a {
+        font-size: 1em;
+    }
+
+    .logoFooter {
+        width: 100%;
+    }
+
+    .imgRedes {
+        width: 15px;
+    }
+}
