@@ -164,7 +164,15 @@ article {
 
 .columna h2 {
     padding: 10px; 
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+.columna p, li{
+    font-size: 1em;
+}
+
+.columna h3 {
+    font-size: 1.3em;
 }
 
 .columna a {
@@ -212,7 +220,7 @@ footer {
 }
 
 .columna .productos {
-    font-size: 2em;
+    font-size: 1.2em;
     text-align: justify;
     width: 70%;
     height: auto;
@@ -228,7 +236,7 @@ footer {
     }
 
     .menu {
-        font-size: 12px;
+        font-size: 1.2em;
     }
 
     .btnContact {
@@ -259,6 +267,10 @@ footer {
         font-size: 1em;
     }
 
+    .columna p, li {
+        font-size: 0.5em;
+    }
+
     .logoFooter {
         width: 100%;
     }
@@ -267,17 +279,6 @@ footer {
         width: 15px;
     }
 
-    .columna .productos {
-        font-size: 1em;
-    }
-
-    .columna .productos p {
-        font-size: 0.6em;
-    }
-
-    .columna .productos li {
-        font-size: 0.6em;
-    }
 }
 
 @media (max-width: 320px) {
@@ -286,7 +287,7 @@ footer {
     }
 
     .menu {
-        font-size: 10px;
+        font-size: 0.8em;
     }
 
     .btnContact {
@@ -318,8 +319,8 @@ footer {
         font-size: 0.8em;
     }
 
-    .columna p {
-        font-size: 0.1em;
+    .columna p, li {
+        font-size: 0.3em;
     }
 
     .logoFooter {
@@ -328,17 +329,5 @@ footer {
 
     .imgRedes {
         width: 10px;
-    }
-
-    .columna .productos {
-        font-size: 0.8em;
-    }
-    
-    .columna .productos p {
-        font-size: 0.4em;
-    }
-
-    .columna .productos li {
-        font-size: 0.4em;
     }
 }
